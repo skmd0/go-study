@@ -13,5 +13,6 @@ func worker() {
 
 func main() {
 	// create a worker goroutine and block main thread until it finishes
+	// solution: https://gobyexample.com/channel-synchronization
 	go worker()
 }
